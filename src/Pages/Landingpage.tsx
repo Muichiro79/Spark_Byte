@@ -106,7 +106,7 @@ export const LandingPage = () => {
       <section className="bg-sky-500 dark:bg-slate-600 py-20 text-center flex flex-col items-center justify-center" data-aos="zoom-in">
   <h2 className="text-4xl font-bold text-white mb-6">Ready to Get Started?</h2>
   <p className="text-lg text-white mb-8">Join hundreds of creators growing faster with IdeaPulse 🚀</p>
-  <Link to="/signup">
+  <Link to="/homepage/home">
     <button className="bg-white text-sky-500 hover:bg-gray-100 font-semibold py-3 px-8 rounded-xl flex items-center gap-2 transition-all duration-300 hover:scale-105 hover:shadow-lg">
       <FaRocket /> Start Your Free Trial
     </button>
