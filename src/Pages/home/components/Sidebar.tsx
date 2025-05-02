@@ -39,7 +39,7 @@ export const Sidebar = () => {
   return (
     <div
       className={`fixed top-0 left-0 transition-all duration-500 ease-in-out
-      ${isCurrentlyShrunk ? "w-20 h-96 rounded-2xl bg-white dark:bg-slate-950" : "w-64 h-screen rounded-none bg-white dark:bg-slate-900"} 
+      ${isCurrentlyShrunk ? "w-20 h-96 rounded-2xl bg-white dark:bg-slate-950 hover:w-64" : "w-64 h-screen rounded-none bg-white dark:bg-slate-900"} 
       shadow-lg flex flex-col justify-between p-6 z-50`}
       style={{
         top: isCurrentlyShrunk ? "50%" : "0",
